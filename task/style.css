@@ -1,0 +1,150 @@
+body {
+    background-color: #2C3E50; /* Dark blue for a modern look */
+    color: #ECF0F1; /* Light text for contrast */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px; /* Base font size increased */
+    margin: 0;
+    padding: 0;
+}
+
+#atmmac {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #34495E; /* Slightly darker background for the ATM container */
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    color: #ECF0F1;
+}
+
+#outer {
+    text-align: center;
+}
+
+#camera {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border: 2px solid #ECF0F1;
+    border-radius: 50%;
+    position: relative;
+    background-color: #1ABC9C;
+}
+
+#lens {
+    width: 50px;
+    height: 50px;
+    background-color: #34495E;
+    border-radius: 50%;
+    margin: 25px auto;
+}
+
+#com {
+    margin-top: 20px;
+}
+
+#com button {
+    width: 80px;
+    height: 30px;
+    margin: 5px;
+    border: none;
+    background-color: #1ABC9C;
+    color: #ECF0F1;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#com button:hover {
+    background-color: #16A085;
+}
+
+.screen {
+    padding: 20px;
+    background-color: #2C3E50;
+    border-radius: 10px;
+    margin-top: 20px;
+    color: white;
+    font-size: 18px;
+}
+
+input[type="text"], input[type="password"], input[type="number"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #1ABC9C;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 10px;
+    background-color: #3498DB;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2980B9;
+}
+
+#final {
+    font-size: 22px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    margin: 10px 0;
+    border-collapse: collapse;
+    color: #ECF0F1;
+}
+
+table td {
+    padding: 10px;
+    font-size: 18px;
+    border-bottom: 1px solid #ECF0F1;
+}
+
+#cash {
+    margin: 20px auto;
+    width: 200px;
+    height: 50px;
+    background-color: #27AE60;
+    border-radius: 5px;
+}
+
+#indicator2 {
+    width: 10px;
+    height: 10px;
+    background-color: #E74C3C;
+    margin: 20px auto;
+    border-radius: 50%;
+}
+
+#err1, #err5, #err8 {
+    color: #E74C3C;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#inf, #succ, #pinwrg1, #final1, #final3, #final2 {
+    font-weight: bold;
+}
+
+#back, #backs, #back2, #back3, #back4, #back5, #back6, #back7, #back8, #back9 {
+    background-color: #E67E22;
+    transition: background-color 0.3s;
+}
+
+#back:hover, #backs:hover, #back2:hover, #back3:hover, #back4:hover, #back5:hover, #back6:hover, #back7:hover, #back8:hover, #back9:hover {
+    background-color: #D35400;
+}
